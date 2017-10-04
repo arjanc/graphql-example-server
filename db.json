@@ -1,0 +1,16 @@
+{
+  "users": [
+    {"id": "23", "firstName": "Bill", "age":20, "companyId": "1" },
+    {"id": "47", "firstName": "Samantha", "age":40, "companyId": "2" },
+    {"id": "41", "firstName": "Nick", "age":23, "companyId": "2" }
+  ],
+  "companies": [
+    {"id": 1, "name": "Apple", "description": "iphone", "cityId": "1"},
+    {"id": 2, "name": "Google", "description": "search",  "cityId": "2"}
+  ],
+  "cities": [
+    {"id": 1, "name": "Amsterdam", "zipcode": "1000AA"},
+    {"id": 2, "name": "Den Haag", "zipcode": "3200AA"},
+    {"id": 3, "name": "Hoorn", "zipcode": "1622WH"}
+  ]
+}
