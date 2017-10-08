@@ -1,16 +1,17 @@
 {
-  "users": [
-    {"id": "23", "firstName": "Bill", "age":20, "companyId": "1" },
-    {"id": "47", "firstName": "Samantha", "age":40, "companyId": "2" },
-    {"id": "41", "firstName": "Nick", "age":23, "companyId": "2" }
+  "instances": [
+    {"id": "23", "name": "Application ABC", "riskScore": 10, "openInsights": 4, "totalInsights": 5, "criticalOpenInsights": 1},
+    {"id": "47", "name": "Application DEF", "riskScore": 10, "openInsights": 4, "totalInsights": 5, "criticalOpenInsights": 1},
+    {"id": "41", "name": "Application GHI", "riskScore": 10, "openInsights": 4, "totalInsights": 5, "criticalOpenInsights": 1}
   ],
-  "companies": [
-    {"id": 1, "name": "Apple", "description": "iphone", "cityId": "1"},
-    {"id": 2, "name": "Google", "description": "search",  "cityId": "2"}
+  "insights": [
+    {"id": "i1", "name": "I-IOA-1",  "description": "user did not comply", "instanceId": "23"},
+    {"id": "i2", "name": "I-IOD-2", "description": "user has no authorization",  "instanceId": "47"}
   ],
-  "cities": [
-    {"id": 1, "name": "Amsterdam", "zipcode": "1000AA"},
-    {"id": 2, "name": "Den Haag", "zipcode": "3200AA"},
-    {"id": 3, "name": "Hoorn", "zipcode": "1622WH"}
-  ]
+  "metrics": [
+    {"id": "m1", "title": "metric title one", "subTitle": "subtitle one", "value": 10.00, "percentage": false, "changeValue": 12, "status": "Improved"},
+    {"id": "m2", "title": "metric title two", "subTitle": "subtitle two", "value": 10.00, "percentage": false, "changeValue": 12, "status": "Neutral"},
+    {"id": "m3", "title": "metric title three", "subTitle": "subtitle three", "value": 10.00, "percentage": false, "changeValue": 12, "status": "Declined"}
+  ],
+  ""
 }
